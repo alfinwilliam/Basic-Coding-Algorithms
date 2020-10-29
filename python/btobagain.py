@@ -18,3 +18,12 @@ x = 5
 x = 'sally'
 # now datatype of x is str
 
+x = 'John'
+x = "John"
+
+x, y, z = 'alfin','shanu','sharlet'
+print(x+' '+y+' '+z)
+
+x = "alfin"
+
+print("ippo bodhodhayam vannu " +x+" inu")
