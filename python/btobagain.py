@@ -68,6 +68,34 @@ print( complex(x) )
 #random module to get a random value
 
 import random
-
+"""
 for i in range(10):
     print(random.randrange(1,10))
+"""
+
+#casting
+
+x = int(1)
+y = int(2.5)
+z = int('3')
+
+print(x)
+print(y)
+print(z)
+
+#multiline string
+
+x = """ This is to 
+acknowledge that everything's gonna be alright """
+
+y = ''' oh yes
+it is '''
+
+print(x)
+print(y)
+
+#python does not have char datatype. it is just "single character string" with length 1.
+# string in py - "array of bytes" representing unicode characters.
+samplestr = "test"
+print(samplestr[1])
+#Do note, iteration starts from 0 because it's an array.
