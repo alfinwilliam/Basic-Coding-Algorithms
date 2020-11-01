@@ -72,3 +72,27 @@ def myfunction():
 
 if myfunction():
     print("YES")
+
+#some values of boolean is inherently false like
+
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool([]))
+print(bool(""))
+print(bool({}))
+
+
+class myclass():
+    def __len__(self): # if len function inside a class return 0 or false .. then bool value of that fn is false.
+        return 0
+
+myobj = myclass()
+print(bool(myobj))
+
+
+
+def myfn():
+    return True
+
+print(bool(myfn))
