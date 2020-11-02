@@ -100,8 +100,3 @@ x not in y # returns true if value of x is not present in y
 
 #bitwise operators used to compare binary numbers
 # I'll come back to this later after learning the essential stuff.
-
-
-
-
-
