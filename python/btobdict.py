@@ -41,6 +41,8 @@ print(thisdict["color"])
 for x,y in thisdict.items():
     print(x,y) 
 
+#removing a value from dict
+
 thisdict.pop("model")
 
 del thisdict["color"]
