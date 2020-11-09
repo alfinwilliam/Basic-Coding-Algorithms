@@ -36,3 +36,20 @@ def my_fn(country = "norway"):
 my_fn("India")
 my_fn()
 my_fn("sweden")
+
+#list as argument
+
+def myfunction(food):
+    for x in food:
+        print(x)
+
+fruits = ["apple","mango","strawberry","banana"]
+myfunction(fruits)
+
+#Return Values
+
+def my_fun(x):
+    return 5 * x
+
+print(my_fun(1))
+print(my_fun(2))
