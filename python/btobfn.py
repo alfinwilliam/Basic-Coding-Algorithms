@@ -20,3 +20,19 @@ def myfn(*toys):
     print(toys)
 
 myfn("bat","ball","pen","pencil")
+
+#keyword arguments , fn arguments as key value pair
+
+def my_fn(child3, child2, child1):
+    print("the youngest child is "+ child3)
+
+my_fn(child1 = "renu", child2 = "data", child3 = "alfin")
+
+#default parameter value
+
+def my_fn(country = "norway"):
+    print("I'm from "+country)
+
+my_fn("India")
+my_fn()
+my_fn("sweden")
