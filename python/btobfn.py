@@ -7,3 +7,16 @@ def sum(a,b):
     return s
 
 print(sum(7,2))
+
+
+def fnname(firstname,lastname):
+    print(firstname+" "+lastname)
+
+fnname("alfin","william")
+
+#arbitary arguments , if you dont know how much arguments beforehand
+
+def myfn(*toys):
+    print(toys)
+
+myfn("bat","ball","pen","pencil")
